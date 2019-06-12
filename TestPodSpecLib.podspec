@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://www.weibo.com/overmindgc'
   s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
   s.source   = { :git => 'https://github.com/overmindgc/TestPodSpecLib.git', :tag => '1.0.0' }
-  s.source_files = 'SkyLab/*.{h,m}'
+  s.source_files = 'TestPodSpecLib/SkyLab/*.{h,m}'
   s.requires_arc = true
   s.ios.deployment_target = '5.1'
 end

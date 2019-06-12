@@ -10,4 +10,6 @@
 
 @interface TestPodSpecLib : NSObject
 
+- (void)testSkyLab;
+
 @end

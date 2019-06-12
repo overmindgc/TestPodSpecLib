@@ -7,7 +7,16 @@
 //
 
 #import "TestPodSpecLib.h"
+#import "SkyLab.h"
 
 @implementation TestPodSpecLib
+
+- (void)testSkyLab {
+    [SkyLab abTestWithName:@"test1" A:^{
+        NSLog(@"sky run one");
+    } B:^{
+        NSLog(@"sky run two");
+    }];
+}
 
 @end

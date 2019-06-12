@@ -35,6 +35,7 @@
 		F95B613A22B0A74F00DE15BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F95B614622B0A79500DE15BA /* TestPodSpecLibFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPodSpecLibFramework.h; sourceTree = "<group>"; };
 		F95B614722B0A79500DE15BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95B614C22B0D52300DE15BA /* TestPodSpecLib.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPodSpecLib.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 		F95B612422B09DBC00DE15BA /* TestPodSpecLib */ = {
 			isa = PBXGroup;
 			children = (
+				F95B614C22B0D52300DE15BA /* TestPodSpecLib.podspec */,
 				F95B612E22B09EBE00DE15BA /* SkyLab */,
 				F95B612522B09DBC00DE15BA /* TestPodSpecLib.h */,
 				F95B612622B09DBC00DE15BA /* TestPodSpecLib.m */,
